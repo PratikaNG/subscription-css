@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    height: 800px;
+    width: 1000px;
+    background: #0F172A;
+}
+
+.top {
+    width: 235.64px;
+    height: 68px;
+    border-radius: 0px 0px 6px 6px;
+    padding: 12px 24px;
+    background-color: #9D174D;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    margin: 88px auto;
+
+}
+
+
+.starter,
+.enterprise {
+    width: 275.44px;
+    height: 346px;
+    padding: 20px;
+    background-color: #1F2937;
+    margin: 20px;
+    color: #E5E7EB;
+    border-radius: 8px;
+
+
+}
+
+.pro {
+    width: 275.44px;
+    height: 386px;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    border-radius: 8px;
+    /* background: #E5E7EB; */
+
+
+}
+
+.title,
+ul {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.title,
+.pricing {
+    text-align: center
+}
+
+.pricing span {
+    font-size: 16px;
+}
+
+.pricing {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin: 0.5rem 0
+}
+
+.starter ul,
+.enterprise ul {
+    margin: 28px;
+
+}
+
+.pro ul {
+    margin: 0 8px;
+
+}
+
+.enterprise button,
+.starter button {
+    padding: 0.5rem;
+    border: 1px solid #9D174D;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.tag {
+    padding: 0.5rem 0;
+    border: 1px solid #4B5563;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.monthly {
+    color: #9D174D;
+    font-size: 12px;
+    padding-bottom: 1rem;
+
+}
+
+.pro button {
+    padding: 0.5rem 2rem;
+    background-color: #9D174D;
+    border-radius: 5px;
+    margin-top: 32px
+}
+
+.btn {
+    display: flex;
+    justify-content: center
+}
+
+.tag-monthly {
+    width: 160px;
+    margin: 0.5rem auto;
+}
