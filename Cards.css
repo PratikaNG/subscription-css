@@ -6,6 +6,7 @@ body {
 .body{
     display:flex;
     justify-content:center;
+}
 
 #main {
     height: 800px;
